@@ -25,8 +25,8 @@ jobs:
       - name: Mostrar entorno
         run: |
           echo "Entorno actual: $NODE_ENV"
-          env:
-          NODE_ENV: ${{ secrets.NODE_ENV}}
+        env:
+          NODE_ENV: ${{ secrets.NODE_ENV }}
 
       - name: Correr tests
         run: npm test
