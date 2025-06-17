@@ -4,4 +4,4 @@ function sumar(a, b) {
   return a + b;
 }
 
-export default sum;
+module.exports = sumar;
